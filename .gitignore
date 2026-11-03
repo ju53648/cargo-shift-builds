@@ -1,0 +1,21 @@
+# Never commit source code, certificates or working files here.
+*.rs
+*.mjs
+*.js
+*.ts
+*.tsx
+*.ps1
+*.py
+*.toml
+*.env
+*.pfx
+*.p12
+*.pem
+*.key
+*.secret
+src/
+ui/
+native/
+node_modules/
+target/
+staging/
