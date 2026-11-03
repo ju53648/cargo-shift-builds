@@ -1,21 +1,25 @@
-# CARGO SHIFT — VENSUKO Downloads
+# CARGO SHIFT — VENSUKO
 
-Public binary distribution repository for **CARGO SHIFT**, a Windows logistics puzzle game by **VENSUKO**.
+**Current public Windows release: 1.0.0**
 
-This repository is intentionally **binary-only**. Game source code, development assets, internal tests, build scripts, signing material, and player saves are not published here.
+[Download CARGO SHIFT 1.0.0](https://github.com/ju53648/cargo-shift-builds/releases/tag/v1.0.0)
 
-## Release status
+CARGO SHIFT is an offline industrial warehouse puzzle game featuring 500 main assignments, five expert exams, 20 training assignments and 15 optional VENSUKO Launcher achievements.
 
-The first Windows release is being prepared. **No public game download has been activated yet.** A private draft of version 0.8.3 is undergoing final release review.
+## Installation
 
-After approval, the public release will provide:
-- A Windows x64 ZIP containing only `CargoShift.exe`
-- A SHA-256 checksum for the ZIP
-- Versioned release notes
-- A manifest for installation through the VENSUKO Launcher
+Download **cargo-shift-1.0.0-win64.zip** from the release page, extract the ZIP and start **CargoShift.exe**. Windows x64 and Microsoft Edge WebView2 Runtime are required. The game works offline; no account is required for gameplay.
 
-### Installation and updates
+The EXE is currently unsigned; Windows SmartScreen may display a warning. Verify the SHA-256 checksum published with the release.
 
-The VENSUKO Launcher will download a public package, verify its checksum, install it, and manage future game updates. A separate game installer is not required.
+## VENSUKO Launcher
 
-This public repository contains **no source code**.
+The public launcher-compatible metadata is in `launcher-manifest.json`, matching the stable game ID `com.vensuko.cargoshift`. The ZIP is hosted directly on GitHub Releases.
+
+**The currently released Launcher v0.16.8 does not yet list CARGO SHIFT.** Its catalog needs a separate application update, which is prepared privately. No changes to the independent Launcher 1.0.0 workstream are included in this game release.
+
+## Public files and private source
+
+This repository hosts only the public game's release binaries and metadata. **Game source code, internal tests, original artwork masters, private credentials and player save files remain private.**
+
+Developer and publisher: **VENSUKO** · 2026.

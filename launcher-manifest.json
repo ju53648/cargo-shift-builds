@@ -1,0 +1,86 @@
+{
+    "id":  "com.vensuko.cargoshift",
+    "itemType":  "game",
+    "platform":  "desktop",
+    "name":  "CARGO SHIFT",
+    "version":  "1.0.0",
+    "description":  "An offline industrial warehouse puzzle game with 500 main jobs and five expert exams.",
+    "developer":  "VENSUKO",
+    "releaseDate":  "2026-11-03",
+    "categories":  [
+                       "Puzzle",
+                       "Strategy",
+                       "Offline"
+                   ],
+    "tags":  [
+                 {
+                     "id":  "puzzle",
+                     "weight":  3
+                 },
+                 {
+                     "id":  "strategy",
+                     "weight":  3
+                 },
+                 {
+                     "id":  "offline",
+                     "weight":  3
+                 },
+                 {
+                     "id":  "native",
+                     "weight":  2
+                 }
+             ],
+    "coverImage":  "/assets/games/cargo-shift-cover.webp",
+    "bannerImage":  "/assets/games/cargo-shift-banner.webp",
+    "iconImage":  "/assets/games/cargo-shift-icon.webp",
+    "executable":  "CargoShift.exe",
+    "requiredPaths":  [
+                          "CargoShift.exe"
+                      ],
+    "installSizeBytes":  10800640,
+    "defaultInstallFolder":  "CARGO SHIFT",
+    "distribution":  {
+                         "channel":  "direct",
+                         "packageType":  "zip"
+                     },
+    "supportedActions":  [
+                             "install",
+                             "launch",
+                             "update",
+                             "repair",
+                             "uninstall",
+                             "openFolder",
+                             "moveInstall"
+                         ],
+    "installStrategy":  {
+                            "kind":  "zipArchive",
+                            "rootFolder":  "."
+                        },
+    "download":  {
+                     "sizeBytes":  5002321,
+                     "url":  "https://github.com/ju53648/cargo-shift-builds/releases/download/v1.0.0/cargo-shift-1.0.0-win64.zip",
+                     "sha256":  "193f9a4918e286708115143a398a1c887c3890bfb468ceba54b0e2dab2205ab9",
+                     "kind":  "httpArchive"
+                 },
+    "changelog":  [
+                      {
+                          "date":  "2026-11-03",
+                          "version":  "1.0.0",
+                          "items":  [
+                                        "500 main contracts, five expert exams and bilingual training.",
+                                        "Industrial visuals, calm forklift motion and improved menus.",
+                                        "Offline save data, hints and gamepad-free keyboard/mouse controls."
+                                    ]
+                      }
+                  ],
+    "localizations":  {
+                          "de":  {
+                                     "description":  "Offline-LogistikrÃ¤tsel mit 500 HauptauftrÃ¤gen, fÃ¼nf MeisterprÃ¼fungen und zweisprachigen Tutorials.",
+                                     "categories":  [
+                                                        "RÃ¤tsel",
+                                                        "Strategie",
+                                                        "Offline"
+                                                    ]
+                                 }
+                      }
+}
