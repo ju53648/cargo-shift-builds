@@ -30,9 +30,9 @@
                      "weight":  2
                  }
              ],
-    "coverImage":  "/assets/games/cargo-shift-cover.webp",
-    "bannerImage":  "/assets/games/cargo-shift-banner.webp",
-    "iconImage":  "/assets/games/cargo-shift-icon.webp",
+    "coverImage":  "https://raw.githubusercontent.com/ju53648/cargo-shift-builds/main/artwork/cargo-shift-cover.webp",
+    "bannerImage":  "https://raw.githubusercontent.com/ju53648/cargo-shift-builds/main/artwork/cargo-shift-banner.webp",
+    "iconImage":  "https://raw.githubusercontent.com/ju53648/cargo-shift-builds/main/artwork/cargo-shift-icon.webp",
     "executable":  "CargoShift.exe",
     "requiredPaths":  [
                           "CargoShift.exe"
@@ -75,9 +75,9 @@
                   ],
     "localizations":  {
                           "de":  {
-                                     "description":  "Offline-LogistikrÃ¤tsel mit 500 HauptauftrÃ¤gen, fÃ¼nf MeisterprÃ¼fungen und zweisprachigen Tutorials.",
+                                     "description":  "Offline-LogistikrÃƒÂ¤tsel mit 500 HauptauftrÃƒÂ¤gen, fÃƒÂ¼nf MeisterprÃƒÂ¼fungen und zweisprachigen Tutorials.",
                                      "categories":  [
-                                                        "RÃ¤tsel",
+                                                        "RÃƒÂ¤tsel",
                                                         "Strategie",
                                                         "Offline"
                                                     ]
