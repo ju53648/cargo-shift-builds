@@ -30,9 +30,9 @@
                      "weight":  2
                  }
              ],
-    "coverImage":  "https://raw.githubusercontent.com/ju53648/cargo-shift-builds/main/artwork/2026-11-17/cargo-shift/cover_2x3.webp",
-    "bannerImage":  "https://raw.githubusercontent.com/ju53648/cargo-shift-builds/main/artwork/2026-11-17/cargo-shift/banner_3x1.webp",
-    "iconImage":  "https://raw.githubusercontent.com/ju53648/cargo-shift-builds/main/artwork/2026-11-17/cargo-shift/icon_512.webp",
+    "coverImage":  "https://raw.githubusercontent.com/ju53648/cargo-shift-builds/main/artwork/2026-11-17-v2/cargo-shift/cover_2x3.webp",
+    "bannerImage":  "https://raw.githubusercontent.com/ju53648/cargo-shift-builds/main/artwork/2026-11-17-v2/cargo-shift/banner_3x1.webp",
+    "iconImage":  "https://raw.githubusercontent.com/ju53648/cargo-shift-builds/main/artwork/2026-11-17-v2/cargo-shift/icon_512.webp",
     "executable":  "CargoShift.exe",
     "requiredPaths":  [
                           "CargoShift.exe"
